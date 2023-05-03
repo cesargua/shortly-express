@@ -10,6 +10,7 @@ const parseData = options => {
     parsed.string.push(`${key} = ?`);
     parsed.values.push(value);
     return parsed;
+    console.log('hi');
   }, { string: [], values: [] });
 };
 
